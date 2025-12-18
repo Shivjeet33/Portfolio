@@ -2,7 +2,7 @@
 
 # --- GENERAL APP IMAGES ---
 # Used in: components/Hero.tsx
-Profile Image: /assets/profile.png
+Profile Image: /assets/profile.svg
 
 # --- PROJECT IMAGES ---
 

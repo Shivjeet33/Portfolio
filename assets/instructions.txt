@@ -6,7 +6,7 @@ This folder is linked to your project's code. To display images on your website,
 ---
 
 ## 1. Profile Image (Hero Section)
-- File Name: profile.png
+- File Name: profile.svg
 - Description: Your headshot or logo displayed on the home page.
 
 ## 2. Project: Personal Finance Tracker
