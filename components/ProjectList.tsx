@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import { PROJECTS } from '../constants';
+import { PROJECTS } from '../projectData';
 
 const ProjectList: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Figma, PenTool, Users, LayoutTemplate, Search, BrainCircuit, Layers, Heart, MousePointerClick } from 'lucide-react';
+import { Figma, PenTool, Users, LayoutTemplate, Search, BrainCircuit, Layers, Heart, MousePointerClick, Film, Grid3x3 } from 'lucide-react';
 
 const Skills: React.FC = () => {
   return (
@@ -122,6 +122,30 @@ const Skills: React.FC = () => {
           >
             <MousePointerClick size={32} className="text-amber-400" />
             <span className="text-white font-medium text-lg">Interaction</span>
+          </motion.div>
+
+           {/* Core Skills 6 - Motion Design */}
+           <motion.div 
+             initial={{ opacity: 0, scale: 0.95 }}
+             whileInView={{ opacity: 1, scale: 1 }}
+             viewport={{ once: true }}
+             transition={{ delay: 0.8 }}
+             className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 flex items-center gap-4 hover:border-white/20 transition-colors"
+          >
+            <Film size={32} className="text-pink-400" />
+            <span className="text-white font-medium text-lg">Motion Design</span>
+          </motion.div>
+
+           {/* Core Skills 7 - Design Systems */}
+           <motion.div 
+             initial={{ opacity: 0, scale: 0.95 }}
+             whileInView={{ opacity: 1, scale: 1 }}
+             viewport={{ once: true }}
+             transition={{ delay: 0.9 }}
+             className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 flex items-center gap-4 hover:border-white/20 transition-colors"
+          >
+            <Grid3x3 size={32} className="text-sky-400" />
+            <span className="text-white font-medium text-lg">Design Systems</span>
           </motion.div>
 
         </div>

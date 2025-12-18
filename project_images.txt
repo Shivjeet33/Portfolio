@@ -1,0 +1,23 @@
+# Project Image Reference List
+# Use this file to track assets when adding future projects to projectData.ts
+
+# Project 1: Personal Finance Tracker (ID: finance-tracker)
+Hero Image: https://picsum.photos/id/160/1200/600
+Gallery Image 1: https://picsum.photos/id/20/800/600
+Gallery Image 2: https://picsum.photos/id/180/800/600
+
+# Project 2: Acadamia Drive (ID: acadamia-drive)
+Hero Image: https://picsum.photos/id/24/1200/600
+Gallery Image 1: https://picsum.photos/id/48/800/600
+Gallery Image 2: https://picsum.photos/id/60/800/600
+
+# Project 3: Marvel Edition Posters (ID: marvel-posters)
+Hero Image: https://picsum.photos/id/324/1200/600
+Gallery Image 1: https://picsum.photos/id/450/800/800
+Gallery Image 2: https://picsum.photos/id/500/800/800
+
+# Instructions for adding new images:
+# 1. Upload your image to a hosting service (or put in public/assets folder).
+# 2. Copy the URL.
+# 3. Open projectData.ts and add a new object to the PROJECTS array.
+# 4. Paste the URL into the 'heroImage' or 'images' array fields.
