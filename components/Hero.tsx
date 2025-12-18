@@ -57,13 +57,11 @@ const Hero: React.FC = () => {
               className="relative w-64 h-64 md:w-96 md:h-96"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-full opacity-20 animate-pulse blur-xl"></div>
-              <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/50 flex items-center justify-center group">
-                 <img 
-                   src="/assets/profile.png" 
-                   alt="Shivjeet Navre"
-                   className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
-                 />
-              </div>
+              <img 
+                src="/assets/profile.png" 
+                alt="Shivjeet Navre"
+                className="relative w-full h-full object-cover rounded-2xl z-10"
+              />
             </motion.div>
           </div>
         </div>
