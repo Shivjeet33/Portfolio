@@ -12,8 +12,8 @@ export const PROJECTS: Project[] = [
     tools: ["Figma", "User Research", "Prototyping"],
     problem: "Students often struggle to track small, recurring expenses, leading to budget overruns. Existing apps are often too complex or cluttered for quick, on-the-go entry.",
     solution: "I designed a minimalist dashboard focusing on quick-entry transactions and visual goal tracking. The solution evolved from low-fidelity sketches to high-fidelity interactive prototypes emphasizing clarity and speed.",
-    heroImage: "https://picsum.photos/id/160/1200/600",
-    images: ["https://picsum.photos/id/20/800/600", "https://picsum.photos/id/180/800/600"]
+    heroImage: "/assets/finance-tracker-hero.jpg",
+    images: ["/assets/finance-tracker-1.jpg", "/assets/finance-tracker-2.jpg"]
   },
   {
     id: "acadamia-drive",
@@ -26,8 +26,8 @@ export const PROJECTS: Project[] = [
     tools: ["Adobe Illustrator", "Photoshop", "Figma"],
     problem: "The institute's previous branding was outdated and inconsistent across platforms, failing to communicate trust and educational excellence.",
     solution: "Developed a cohesive brand system including a new logo, business cards, and promotional assets. The design language focuses on 'clean aesthetics' using a trustworthy blue palette to symbolize growth and reliability.",
-    heroImage: "https://picsum.photos/id/24/1200/600",
-    images: ["https://picsum.photos/id/48/800/600", "https://picsum.photos/id/60/800/600"]
+    heroImage: "/assets/acadamia-drive-hero.jpg",
+    images: ["/assets/acadamia-drive-1.jpg", "/assets/acadamia-drive-2.jpg"]
   },
   {
     id: "marvel-posters",
@@ -40,28 +40,7 @@ export const PROJECTS: Project[] = [
     tools: ["Photoshop", "Canva"],
     problem: "Creating engagement in a saturated market requires visuals that instantly convey emotion and character traits without relying solely on text.",
     solution: "Applied advanced color theory to match character archetypes (e.g., aggressive reds for anti-heroes, noble blues for leaders). Used hero-based aesthetics with bold typography to create impact.",
-    heroImage: "https://picsum.photos/id/324/1200/600",
-    images: ["https://picsum.photos/id/450/800/800", "https://picsum.photos/id/500/800/800"]
+    heroImage: "/assets/marvel-posters-hero.jpg",
+    images: ["/assets/marvel-posters-1.jpg", "/assets/marvel-posters-2.jpg"]
   }
-  /* 
-  // --- TEMPLATE FOR FUTURE PROJECTS (Uncomment to use) ---
-  ,
-  {
-    id: "new-project-id",
-    title: "New Project Title",
-    category: "Category",
-    tagline: "Short description shown on the card.",
-    overview: "Detailed project overview.",
-    role: "Your Role",
-    duration: "Time Period",
-    tools: ["Tool 1", "Tool 2"],
-    problem: "The problem statement.",
-    solution: "The solution description.",
-    heroImage: "https://placehold.co/1200x600", // Replace with your image URL
-    images: [
-      "https://placehold.co/800x600", // Gallery Image 1
-      "https://placehold.co/800x600"  // Gallery Image 2
-    ]
-  }
-  */
 ];

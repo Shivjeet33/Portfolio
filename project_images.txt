@@ -2,29 +2,29 @@
 
 # --- GENERAL APP IMAGES ---
 # Used in: components/Hero.tsx
-Profile Image: https://res.cloudinary.com/subframe/image/upload/v1740924976/uploads/3194/a3240e4f-2d60-44ec-b8f2-378853b05b82.png
+Profile Image: /assets/profile.png
 
 # --- PROJECT IMAGES ---
 
 # Project 1: Personal Finance Tracker (ID: finance-tracker)
 # Location: projectData.ts (index 0)
-Hero Image: https://picsum.photos/id/160/1200/600
-Gallery Image 1: https://picsum.photos/id/20/800/600
-Gallery Image 2: https://picsum.photos/id/180/800/600
+Hero Image: /assets/finance-tracker-hero.jpg
+Gallery Image 1: /assets/finance-tracker-1.jpg
+Gallery Image 2: /assets/finance-tracker-2.jpg
 
 # Project 2: Acadamia Drive (ID: acadamia-drive)
 # Location: projectData.ts (index 1)
-Hero Image: https://picsum.photos/id/24/1200/600
-Gallery Image 1: https://picsum.photos/id/48/800/600
-Gallery Image 2: https://picsum.photos/id/60/800/600
+Hero Image: /assets/acadamia-drive-hero.jpg
+Gallery Image 1: /assets/acadamia-drive-1.jpg
+Gallery Image 2: /assets/acadamia-drive-2.jpg
 
 # Project 3: Marvel Edition Posters (ID: marvel-posters)
 # Location: projectData.ts (index 2)
-Hero Image: https://picsum.photos/id/324/1200/600
-Gallery Image 1: https://picsum.photos/id/450/800/800
-Gallery Image 2: https://picsum.photos/id/500/800/800
+Hero Image: /assets/marvel-posters-hero.jpg
+Gallery Image 1: /assets/marvel-posters-1.jpg
+Gallery Image 2: /assets/marvel-posters-2.jpg
 
-# --- INSTRUCTIONS FOR ADDING NEW IMAGES ---
-# 1. Host your image (e.g., on Cloudinary, Imgur, or locally in public/assets).
-# 2. Copy the direct image URL.
-# 3. Paste the URL into the 'heroImage' or 'images' array in 'projectData.ts'.
+# --- INSTRUCTIONS ---
+# 1. Place your images in the `assets/` folder.
+# 2. Rename them to match the filenames above.
+# 3. If you use different extensions (e.g., .png), update `projectData.ts` and `components/Hero.tsx` accordingly.

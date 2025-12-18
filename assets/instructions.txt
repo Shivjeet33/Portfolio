@@ -1,0 +1,29 @@
+
+# ASSETS FOLDER INSTRUCTIONS
+
+This folder is linked to your project's code. To display images on your website, place your image files in this folder and name them exactly as listed below.
+
+---
+
+## 1. Profile Image (Hero Section)
+- File Name: profile.png
+- Description: Your headshot or logo displayed on the home page.
+
+## 2. Project: Personal Finance Tracker
+- Hero Banner: finance-tracker-hero.jpg
+- Gallery 1:   finance-tracker-1.jpg
+- Gallery 2:   finance-tracker-2.jpg
+
+## 3. Project: Acadamia Drive
+- Hero Banner: acadamia-drive-hero.jpg
+- Gallery 1:   acadamia-drive-1.jpg
+- Gallery 2:   acadamia-drive-2.jpg
+
+## 4. Project: Marvel Edition Posters
+- Hero Banner: marvel-posters-hero.jpg
+- Gallery 1:   marvel-posters-1.jpg
+- Gallery 2:   marvel-posters-2.jpg
+
+---
+
+**Note:** If your images are PNGs or have different extensions, you must update the filenames in `projectData.ts` and `components/Hero.tsx` to match.
