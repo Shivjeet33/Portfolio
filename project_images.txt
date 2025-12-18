@@ -2,7 +2,7 @@
 
 # --- GENERAL APP IMAGES ---
 # Used in: components/Hero.tsx
-Profile Image: https://picsum.photos/id/447/800/800
+Profile Image: https://res.cloudinary.com/subframe/image/upload/v1740924976/uploads/3194/a3240e4f-2d60-44ec-b8f2-378853b05b82.png
 
 # --- PROJECT IMAGES ---
 

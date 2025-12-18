@@ -59,9 +59,9 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-full opacity-20 animate-pulse blur-xl"></div>
               <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/50 flex items-center justify-center group">
                  <img 
-                   src="https://picsum.photos/id/447/800/800" 
+                   src="https://res.cloudinary.com/subframe/image/upload/v1740924976/uploads/3194/a3240e4f-2d60-44ec-b8f2-378853b05b82.png" 
                    alt="Shivjeet Navre"
-                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
+                   className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
                  />
               </div>
             </motion.div>
