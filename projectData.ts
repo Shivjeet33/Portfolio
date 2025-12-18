@@ -43,4 +43,25 @@ export const PROJECTS: Project[] = [
     heroImage: "https://picsum.photos/id/324/1200/600",
     images: ["https://picsum.photos/id/450/800/800", "https://picsum.photos/id/500/800/800"]
   }
+  /* 
+  // --- TEMPLATE FOR FUTURE PROJECTS (Uncomment to use) ---
+  ,
+  {
+    id: "new-project-id",
+    title: "New Project Title",
+    category: "Category",
+    tagline: "Short description shown on the card.",
+    overview: "Detailed project overview.",
+    role: "Your Role",
+    duration: "Time Period",
+    tools: ["Tool 1", "Tool 2"],
+    problem: "The problem statement.",
+    solution: "The solution description.",
+    heroImage: "https://placehold.co/1200x600", // Replace with your image URL
+    images: [
+      "https://placehold.co/800x600", // Gallery Image 1
+      "https://placehold.co/800x600"  // Gallery Image 2
+    ]
+  }
+  */
 ];
