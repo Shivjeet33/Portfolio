@@ -1,0 +1,59 @@
+# How to Add a New Project to Your Portfolio
+
+Follow these simple steps to add a new case study or project to your website.
+
+---
+
+## Step 1: Prepare Your Images
+1. **Select your images:** You need at least one "Hero" image (main cover) and a few gallery images.
+   - Recommended Size: 1920x1080 or 1200x800 pixels.
+2. **Rename them:** Give them simple, lowercase names with hyphens.
+   - Example Hero: `food-app-hero.jpg`
+   - Example Gallery: `food-app-1.jpg`, `food-app-2.jpg`
+3. **Move files:** Drag and drop these image files into the **`assets/`** folder of your project.
+
+---
+
+## Step 2: Add Project Data
+1. Open the file named **`projectData.ts`** in your code editor.
+2. Locate the `PROJECTS` constant (it's a list of project objects).
+3. Copy the template below and paste it inside the list. 
+   - *Tip: Paste it at the top of the list if you want it to appear first.*
+
+```typescript
+  {
+    id: "unique-id-here",  // USE LOWERCASE & HYPHENS (e.g. "smart-home-app")
+    title: "Project Title",
+    category: "Category (e.g., UX Case Study)",
+    tagline: "A short, one-sentence description for the card.",
+    overview: "A detailed summary of the project.",
+    role: "Your Role",
+    duration: "Time taken (e.g., 2 Weeks)",
+    tools: ["Figma", "Photoshop"], // List your tools here
+    problem: "Description of the problem you solved.",
+    solution: "Description of your design solution.",
+    
+    // UPDATE THESE FILENAMES TO MATCH YOUR FILES IN ASSETS FOLDER
+    heroImage: "/assets/food-app-hero.jpg", 
+    images: [
+      "/assets/food-app-1.jpg",
+      "/assets/food-app-2.jpg"
+    ]
+  },
+```
+
+4. **Fill in the details:** Replace the placeholder text with your actual project info.
+
+---
+
+## Step 3: Save and Publish
+1. **Save** the `projectData.ts` file.
+2. The website will automatically update:
+   - A new card will appear on the Home page.
+   - A new detailed Case Study page will be created at `/projects/unique-id-here`.
+
+---
+
+## Troubleshooting
+- **Image not showing?** Check if the filename in the code matches the file in the `assets` folder exactly (including .jpg vs .png).
+- **Page not found?** Ensure your `id` is unique and contains no spaces.
