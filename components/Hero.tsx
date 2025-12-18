@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-full opacity-20 animate-pulse blur-xl"></div>
               <img 
-                src="/assets/profile.png" 
+                src="/assets/profile.svg" 
                 alt="Shivjeet Navre"
                 className="relative w-full h-full object-cover rounded-2xl z-10"
               />
